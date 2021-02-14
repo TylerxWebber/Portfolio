@@ -5,6 +5,14 @@ body {
 h1 {
     text-shadow: 2px 2px 8px black;
 } 
+@media (min-width:1200px){
+.full-name {
+   padding-top: 200px; 
+    }
+}
+.full-name {
+    padding-top: 50px;
+}
 .navbar {
     opacity: 50%;
 }
@@ -20,4 +28,7 @@ h1 {
 .occupation {
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;   
+}
+.web-images {
+    padding-top: 50px;
 }
