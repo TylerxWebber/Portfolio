@@ -1,5 +1,5 @@
 body {
-    background-image:url(./images/background\ -forest.png);
+    background-image:url(./images/background\ -forest.webp);
     background-position: center;   
 }
 h1 {
@@ -32,12 +32,15 @@ h1 {
 .web-images {
     padding-top: 50px;
 }
+@media (min-width: 1200px) {
 .fade-in {
     opacity: 20%;
     transition:opacity 0.8s
     }
-    
     .fade-in:hover {
     opacity:100%;
     transition:opacity 0.5s
     }
+}
+
+
