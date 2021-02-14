@@ -32,3 +32,12 @@ h1 {
 .web-images {
     padding-top: 50px;
 }
+.fade-in {
+    opacity: 20%;
+    transition:opacity 0.8s
+    }
+    
+    .fade-in:hover {
+    opacity:100%;
+    transition:opacity 0.5s
+    }
