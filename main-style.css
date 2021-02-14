@@ -1,0 +1,43 @@
+body {
+    background-image:url(./images/background\ -forest.png);
+    background-position: center;   
+}
+h1 {
+    text-shadow: 2px 2px 8px black;
+} 
+@media (min-width:1200px){
+.full-name {
+   padding-top: 200px; 
+    }
+}
+.full-name {
+    padding-top: 50px;
+}
+.navbar {
+    opacity: 50%;
+}
+.navbar-link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.navbar-link:hover {
+    color: black;
+    text-decoration: none;
+}
+.occupation {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;   
+}
+.web-images {
+    padding-top: 50px;
+}
+.fade-in {
+    opacity: 20%;
+    transition:opacity 0.8s
+    }
+    
+    .fade-in:hover {
+    opacity:100%;
+    transition:opacity 0.5s
+    }

@@ -1,0 +1,67 @@
+body {
+    background-image:url(./images/AdmiredWhoppingAsianconstablebutterfly-max-1mb.gif);  
+    background-size: cover;
+}
+#name-link {
+    color:whitesmoke;
+    text-decoration: none;
+    text-shadow:white 2px 2px 8px;
+}
+h1 {
+    text-shadow: 2px 2px 8px black;
+} 
+@media (min-width:1200px){
+.full-name {
+   padding-top: 200px; 
+    }
+}
+.full-name {
+    padding-top: 50px;
+}
+.navbar {
+    opacity: 50%;
+}
+.navbar-link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.navbar-link:hover {
+    color: black;
+    text-decoration: none;
+}
+.occupation {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace; 
+    opacity: 0.0;
+animation: fadeIn ease 10s;
+-webkit-animation: fadeIn linear 2s infinite alternate;
+}
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+.web-images {
+    padding-top: 50px;
+}
