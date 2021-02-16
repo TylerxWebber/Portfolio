@@ -1,17 +1,22 @@
 body {
     background-image:url(./images/background\ -forest.webp);
-    background-position: center;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+@media (max-width:800px){
+    body {
+        background-image: url(./images/dynamic-wang-g-YsyUUwT9M-unsplash.webp);
+        background-repeat: repeat;
+        background-size: auto;
+    }
 }
 h1 {
     text-shadow: 2px 2px 8px black;
+    font-size: 102px;
 } 
-@media (min-width:1200px){
 .full-name {
-   padding-top: 200px; 
-    }
-}
-.full-name {
-    padding-top: 50px;
+    padding-top: 250px;
 }
 .navbar {
     opacity: 50%;
@@ -30,17 +35,25 @@ h1 {
     font-family: 'Courier New', Courier, monospace;   
 }
 .web-images {
-    padding-top: 50px;
+    padding-top: 350px;
 }
 @media (min-width: 1200px) {
 .fade-in {
     opacity: 20%;
     transition:opacity 0.8s
     }
-    .fade-in:hover {
+.fade-in:hover {
     opacity:100%;
     transition:opacity 0.5s
     }
 }
+@media (max-width:800px){
+    .placeholder-images {
+        margin-right: -15px;
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+}
+
 
 
